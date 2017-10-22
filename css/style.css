@@ -1,0 +1,75 @@
+/* style.css */
+
+
+p {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 12px;
+	color: black
+	}
+	
+
+
+
+path { 
+    stroke: white;
+    stroke-width: 0.75px;
+    fill: grey;
+}
+
+
+path_map { 
+    stroke: red;
+    stroke-width: 0.75px;
+    fill: grey;
+}
+
+
+
+svg {
+    background-color: black;
+}
+
+ 
+
+.xaxis {
+	margin: 0;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 12px;
+	line-height: 10px;
+}
+
+
+
+.yaxis {
+	margin: 0;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 12px;
+	line-height: 1px;
+
+
+}
+
+
+.path_slider {
+  stroke: white;
+  stroke-width: 2px;
+  fill: white;
+}
+
+
+.slider {
+  stroke: white;
+  stroke-width: 1px;
+  fill: white;
+}
+
+
+.text_slider {
+	margin: 0;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 12px;
+	line-height: 1px;
+    fill: white;
+    }
+
+.axis text { display: none; }
